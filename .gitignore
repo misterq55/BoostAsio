@@ -1,0 +1,39 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# C++ compiled files
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Work/Libs/boost_1_89_0/libs/**)",
+      "Bash(py --version)",
+      "Bash(py:*)",
+      "Bash(g++:*)",
+      "Bash(cl:*)",
+      "Bash(if [ -f \"CLAUDE.md\" ])",
+      "Bash(then echo \"EXISTS\")",
+      "Bash(else echo \"NOT_FOUND\")",
+      "Bash(fi)",
+      "Bash(if [ -f \"README.md\" ])",
+      "Bash(if [ -d \".cursor\" ])",
+      "Bash(then ls -la .cursor/)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
