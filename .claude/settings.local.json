@@ -12,9 +12,19 @@
       "Bash(fi)",
       "Bash(if [ -f \"README.md\" ])",
       "Bash(if [ -d \".cursor\" ])",
-      "Bash(then ls -la .cursor/)"
+      "Bash(then ls -la .cursor/)",
+      "Bash(mkdir:*)",
+      "Bash(findstr:*)",
+      "Bash(git add:*)",
+      "Bash(rm:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "mcp__github__get_file_contents"
     ],
     "deny": [],
     "ask": []
-  }
+  },
+  "enabledMcpjsonServers": [
+    "github"
+  ]
 }
