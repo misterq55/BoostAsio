@@ -49,7 +49,7 @@ chat_client.exe localhost 9999
 ### 2주차: 핵심 패턴 마스터 (chat_server 집중) 🔄 **진행중**
 - **Day 6**: ✅ `chat_server.cpp` 전체 구조 분석 완료 (클래스 설계, 흐름, CMake 빌드)
 - **Day 7**: ✅ 세션 관리 심화 완료 (생명주기, shared_from_this 패턴, ref_count 메커니즘)
-- **Day 8**: 메시지 브로드캐스트 (멀티 클라이언트 처리 핵심)
+- **Day 8**: ✅ 메시지 브로드캐스트 완료 (멀티 클라이언트 처리, 독립 쓰기 큐, Full-Duplex)
 - **Day 9**: `chat_client.cpp` 분석 - 송수신 분리, 입력 처리
 - **Day 10**: chat 서버 직접 구현 - 참고하여 스스로 구현
 
@@ -105,7 +105,13 @@ boost/
 │   │   ├── build.bat          # 자동 빌드
 │   │   ├── analysis.md        # 상세 분석 문서
 │   │   └── README.md          # 사용법 가이드
-│   └── day7/        # 세션 관리 심화
-│       └── session_management_analysis.md  # 생명주기 & 메모리 관리 분석
+│   ├── day7/        # 세션 관리 심화
+│   │   └── session_management_analysis.md  # 생명주기 & 메모리 관리 분석
+│   └── day8/        # 메시지 브로드캐스트
+│       ├── broadcast_chat_server.cpp  # 개선된 서버 (큐 제한, 모니터링)
+│       ├── broadcast_analysis.md      # 브로드캐스트 메커니즘 분석
+│       ├── CMakeLists.txt             # 빌드 설정
+│       ├── build.bat                  # 자동 빌드
+│       └── README.md                  # 사용법 가이드
 └── CLAUDE.md        # 프로젝트 가이드 (이 파일)
 ```
