@@ -50,7 +50,7 @@ chat_client.exe localhost 9999
 - **Day 6**: ✅ `chat_server.cpp` 전체 구조 분석 완료 (클래스 설계, 흐름, CMake 빌드)
 - **Day 7**: ✅ 세션 관리 심화 완료 (생명주기, shared_from_this 패턴, ref_count 메커니즘)
 - **Day 8**: ✅ 메시지 브로드캐스트 완료 (멀티 클라이언트 처리, 독립 쓰기 큐, Full-Duplex)
-- **Day 9**: `chat_client.cpp` 분석 - 송수신 분리, 입력 처리
+- **Day 9**: ✅ `chat_client.cpp` 분석 완료 (스레드 분리, post/dispatch/defer, strand 패턴)
 - **Day 10**: chat 서버 직접 구현 - 참고하여 스스로 구현
 
 ### 3주차: 고급 기법 & 프로젝트 설계
